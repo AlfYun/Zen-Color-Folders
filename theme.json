@@ -15,9 +15,9 @@
   },
   "readme": "README.md",
   "author": "you",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "tags": ["Zen Browser", "Folders", "Customization", "Color", "Tooltip"],
   "createdAt": "2026-08-18",
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-13",
   "fork": ["zen"]
 }
