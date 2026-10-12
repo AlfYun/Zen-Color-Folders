@@ -1,15 +1,12 @@
 {
   "id": "zen-folder-color-picker",
-  "name": "Folder Change Color, View URL, Translate Page",
-  "description": "Adds a 'Change Color…' option to the right-click menu on sidebar folders (any custom color from a color wheel, not just the built-in preset palette), a tab tooltip showing the page's title and full URL (port included), and a '번역하기' page-context-menu item that reopens Firefox's full-page translation panel any time.",
+  "name": "Folder Change Color, View URL",
+  "description": "Adds a 'Change Color…' option to the right-click menu on sidebar folders (any custom color from a color wheel, not just the built-in preset palette), plus a tab tooltip showing the page's title and full URL, port included.",
   "scripts": {
     "zen-folder-color-picker.uc.js": {
       "include": ["chrome://browser/content/browser.xhtml"]
     },
     "tab-url-tooltip.uc.js": {
-      "include": ["chrome://browser/content/browser.xhtml"]
-    },
-    "translate-context-menu.uc.js": {
       "include": ["chrome://browser/content/browser.xhtml"]
     }
   },
@@ -18,9 +15,9 @@
   },
   "readme": "README.md",
   "author": "you",
-  "version": "1.0.3",
-  "tags": ["Zen Browser", "Folders", "Customization", "Color", "Tooltip", "Translate"],
+  "version": "1.0.2",
+  "tags": ["Zen Browser", "Folders", "Customization", "Color", "Tooltip"],
   "createdAt": "2026-08-18",
-  "updatedAt": "2026-10-13",
+  "updatedAt": "2026-10-12",
   "fork": ["zen"]
 }
