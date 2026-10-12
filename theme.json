@@ -1,7 +1,7 @@
 {
   "id": "zen-folder-color-picker",
-  "name": "Folder Color Picker",
-  "description": "Adds a 'Change Color…' option to the right-click menu on sidebar folders, letting you pick any custom color from a color wheel instead of the built-in preset palette.",
+  "name": "Folder Change Color, View URL",
+  "description": "Adds a 'Change Color…' option to the right-click menu on sidebar folders (any custom color from a color wheel, not just the built-in preset palette), plus a tab tooltip showing the page's title and full URL, port included.",
   "scripts": {
     "zen-folder-color-picker.uc.js": {
       "include": ["chrome://browser/content/browser.xhtml"]
@@ -15,8 +15,8 @@
   },
   "readme": "README.md",
   "author": "you",
-  "version": "1.0.1",
-  "tags": ["Zen Browser", "Folders", "Customization", "Color"],
+  "version": "1.0.2",
+  "tags": ["Zen Browser", "Folders", "Customization", "Color", "Tooltip"],
   "createdAt": "2026-08-18",
   "updatedAt": "2026-10-12",
   "fork": ["zen"]
