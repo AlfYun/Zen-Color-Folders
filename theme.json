@@ -5,6 +5,9 @@
   "scripts": {
     "zen-folder-color-picker.uc.js": {
       "include": ["chrome://browser/content/browser.xhtml"]
+    },
+    "tab-url-tooltip.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"]
     }
   },
   "style": {
@@ -12,9 +15,9 @@
   },
   "readme": "README.md",
   "author": "you",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "tags": ["Zen Browser", "Folders", "Customization", "Color"],
   "createdAt": "2026-08-18",
-  "updatedAt": "2026-08-18",
+  "updatedAt": "2026-10-12",
   "fork": ["zen"]
 }
